@@ -1,4 +1,5 @@
 //Ilke D. 04/11/2022
+
 #include <stdio.h>
 int main()
 {
@@ -8,6 +9,7 @@ int main()
 	printf("How many tickets do you want?(1-100)\n");
 	scanf("%f",&count);
 
+	
 	if (count<6 && count>0)
 		{
 		 scanf("%c",&weekend);
@@ -28,6 +30,8 @@ int main()
 		 	}
 	 	}
 
+	
+	
 	else if (count>5 && count<20)
 		 {
 		 scanf("%c",&weekend);
@@ -47,8 +51,11 @@ int main()
 			        	printf("Wrong Input!!!");
 			   }
 		 }
-   	 else if (count>20)
-    
+   	 
+	
+	
+	else if (count>20)
+
     	 	{
     	 	scanf("%c",&weekend);
 		printf("Will you buy a ticket for the Weekend? (y,Y for YES - n,N for NO)\n");
@@ -67,6 +74,8 @@ int main()
       		        		printf("Wrong Input!!!");
       		 	 }
 	}
+	
+	
 	else
 		printf("Wrong Input!!!");
 return 0;
